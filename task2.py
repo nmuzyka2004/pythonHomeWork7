@@ -20,7 +20,7 @@
 
 def print_operation_table(operation, num_rows=6, num_columns=6):
     if num_rows < 2 or num_columns < 2:
-        print("Размерность таблицы должна быть больше двух")
+        print("Размерность таблицы должна быть не менее двух")
     else:
         for i in range(1, num_rows + 1):
             for j in range(1, num_columns + 1):
